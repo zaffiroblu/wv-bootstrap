@@ -1,0 +1,23 @@
+{
+	"name": "rock-paper-scissors-project",
+	"version": "1.0.0",
+	"description": "",
+	"main": "rps.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"watch": "sass --watch sass/main.scss css/main.min.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zaffiroblu/Rock-Paper-Scissors-Project.git"
+	},
+	"author": "Jen Shivel",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zaffiroblu/Rock-Paper-Scissors-Project/issues"
+	},
+	"homepage": "https://github.com/zaffiroblu/Rock-Paper-Scissors-Project#readme",
+	"dependencies": {
+		"bootstrap": "^5.2.0"
+	}
+}

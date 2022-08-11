@@ -1,0 +1,22 @@
+//import Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+$rock: #9165ff;
+$paper: #ffc965;
+$scissors: #53ceff;
+
+.btn-rock {
+	@include button-outline-variant($rock);
+}
+
+.btn-paper {
+	@include button-outline-variant($paper);
+}
+
+.btn-scissors {
+	@include button-outline-variant($scissors);
+}
+
+.maxw-80 {
+	max-width: 80px;
+}

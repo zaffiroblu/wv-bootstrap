@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Page Title</title>
+		<link href="css/main.min.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-9 display-6">
+					Heya! Let's play 'til someone gets 3 points. <br />Rock,
+					paper, or scissors?
+				</div>
+			</div>
+			<div class="row justify-content-center align-items-center">
+				<div class="col-3">
+					<button
+						type="button"
+						class="btn btn-rock d-flex flex-column align-items-stretch maxw-80 p-3"
+						id="rocky"
+					>
+						<img src="images/rock.png" />
+						<span>Rock</span>
+					</button>
+				</div>
+				<div class="col-3">
+					<button
+						type="button"
+						class="btn btn-paper d-flex flex-column align-items-stretch maxw-80 p-3"
+						id="papery"
+					>
+						<img src="images/paper.png" />
+						<span>Paper</span>
+					</button>
+				</div>
+				<div class="col-3">
+					<button
+						type="button"
+						class="btn btn-scissors d-flex flex-column align-items-stretch maxw-80 px-0 py-3"
+						id="scissory"
+					>
+						<img class="p-3" src="images/scissors.png" />
+						<span>Scissors</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div
+			class="container-fluid"
+			id="main-feedback-container"
+			
+		>
+			<div class="row d-none" id="feedback-row">
+					<img class="col-3" id="hum-move-img"></img>
+					<div class="col-6">
+						<p id="feedback-para"></p>
+						<p id="feedback-score"></p>
+					</div>	
+					<img class="col-3" id="com-move-img"></img>
+			</div>
+
+			<div class="row justify-content-center align-items-center" id="score-container">
+				<!-- <p class="col-7" id="feedback-score"></p> -->
+			</div>
+
+			<div class="row d-none" id="game-end-row">
+				<img class="col-5" id="game-end-img"></img>
+				<p class="col-5" id="game-end-para"></p>
+			</div>
+
+		</div>
+	
+		<footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+		<script src="rps.js"></script>
+		</footer>
+	</body>
+</html>
